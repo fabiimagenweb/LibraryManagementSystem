@@ -1,0 +1,58 @@
+Library Management System in C#
+Project Overview
+This is a simple Library Management System built in C# as part of a guided learning process. It allows users to manage a small collection of books through a console interface. The system supports adding, removing, searching, borrowing, returning, and listing books, with built-in logic to enforce a borrowing limit.
+
+Features
+Add Book: Add a new book title to the collection.
+
+Remove Book: Delete a book from the collection by its title.
+
+Search Book: Check if a book exists and whether it is available or borrowed.
+
+Borrow Book: Borrow a book if available, with a limit of 3 books per user.
+
+Return Book: Return a borrowed book and update its status.
+
+List Books: Display all books in the collection with their current status.
+
+Technologies Used
+Language: C#
+
+Runtime: .NET Core Console Application
+
+IDE: Visual Studio Code
+
+How to Run
+Clone or download the project folder.
+
+Open the folder in Visual Studio Code.
+
+Replace the contents of Program.cs with the full code.
+
+Open terminal and run:
+
+bash
+dotnet run
+Example Usage
+plaintext
+Choose an action: add / remove / search / borrow / return / list / exit
+> add
+Enter the title to add:
+> The Alchemist
+"The Alchemist" has been added to the library.
+
+> borrow
+Enter the title to borrow:
+> The Alchemist
+"The Alchemist" has been borrowed.
+Future Improvements
+Save and load book data from a file (persistence).
+
+Add user profiles and track individual borrow history.
+
+Implement graphical interface (WPF or WinForms).
+
+Add multilingual support (English/Spanish).
+
+Author
+Fabián Andrés Colorado Rivera Founder of Intelligent Zone S.A.S. Digital entrepreneur, SENA learner, and strategic leader in territorial innovation.
